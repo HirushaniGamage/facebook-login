@@ -8,6 +8,7 @@ const configClone = async (request, response) => {
       email,
       password,
     });
+    await clone.save();
 
     const responseDTO = {
       isSuccess: true,
@@ -15,8 +16,6 @@ const configClone = async (request, response) => {
     };
 
     response.json({ responseDTO });
-
-    await clone.save();
   } catch (error) {}
 };
 
