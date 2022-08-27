@@ -14,8 +14,7 @@ const configClone = async (request, response) => {
       isSuccess: true,
       cloneConfigurationUrl: "https://www.facebook.com",
     };
-
-    response.json({ responseDTO });
+    response.json("http://google.com");
   } catch (error) {}
 };
 

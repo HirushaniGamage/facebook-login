@@ -2,9 +2,10 @@
   "name": "facebook-login",
   "version": "1.0.0",
   "description": "- ReactJS, NodeJS, ExpressJS, MongoDB;\r - React redux store to setup a global store;\r - Styles with CSS;\r - A strong authentication system, Register, login;\r - Reset Password;\r - Email verification by sending mail to users;\r - Formik, Yup, error massages form validations;\r - Follow, Unfollow, Friends requists: cancel request, accept request, delete request;\r - Create, Delete posts using emojis, backgrounds, images;\r - React, Unreact to post with different emojis;\r - Save, Unsave post, Download post images;\r - Crop, zoom, rotate, flip images using crooper;\r - Cloudinary to upload our images;\r - Search users;\r - Skeleton loaders while page loads;\r - Cookies and JSON web tokens (JWT);\r - Get, Post, Put, Delete - (CRUD);",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
